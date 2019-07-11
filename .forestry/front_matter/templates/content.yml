@@ -1,4 +1,18 @@
 ---
 label: Content
 hide_body: false
-fields: []
+fields:
+- name: label
+  type: text
+  config:
+    required: false
+  label: Label
+- name: markdown
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Markdown
